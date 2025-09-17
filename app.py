@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, flash, redirect, url_for
 from flask_mail import Mail, Message
 from twilio.rest import Client  # ✅ For SMS
 
-app = Flask(__name__, template_folder='.', static_folder='.', static_url_path='/static')
+app = Flask(__name__)
 app.secret_key = "supersecretkey"
 
 # ------------------- Mail Configuration -------------------
@@ -27,7 +27,7 @@ twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
 @app.route('/')
 def index():
-    return render_template('Index.html')
+    return render_template('index.html')
 
 @app.route('/about')
 def about():
