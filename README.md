@@ -224,6 +224,6 @@ https://www.linkedin.com/in/hasini-unnamatla-365995334/
 
 ### ⭐ If you found this project useful, don't forget to give it a Star!
 
-**Made with ❤️ using Flask, MongoDB & Web Technologies**
+**Made with  using Flask, MongoDB & Web Technologies**
 
 </div>
